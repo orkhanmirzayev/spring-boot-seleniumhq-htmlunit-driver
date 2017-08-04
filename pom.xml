@@ -62,7 +62,22 @@
 		</dependency>
 
 	</dependencies>
-
+	<repositories>
+	  <repository>
+	    <id>myMavenRepo.read</id>
+	    <url>https://mymavenrepo.com/repo/1RjuQVvYdsPQrifVIFeP/</url>
+	  </repository>
+	</repositories>
+	<distributionManagement>
+    <repository>
+        <id>myMavenRepo.write</id>
+        <url>https://mymavenrepo.com/repo/gXmQxvhK3lvJBu6oTTDP/</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://domain:port/content/repositories/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
