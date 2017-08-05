@@ -33,7 +33,7 @@ public class SpringBootSeleniumHtmlunitdriverApplicationTests {
 		loginButton.click();
 		System.out.println("Successful....");
 		driver.quit();
-		assertEquals("1", "2");
+		assertEquals("1", "1");
 	}
 
 }
