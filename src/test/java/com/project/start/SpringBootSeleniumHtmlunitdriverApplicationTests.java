@@ -1,5 +1,7 @@
 package com.project.start;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
@@ -31,6 +33,7 @@ public class SpringBootSeleniumHtmlunitdriverApplicationTests {
 		loginButton.click();
 		System.out.println("Successful....");
 		driver.quit();
+		assertEquals("1", "2");
 	}
 
 }
